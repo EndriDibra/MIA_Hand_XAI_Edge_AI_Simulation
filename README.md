@@ -102,7 +102,7 @@ The project uses:
 * **Prensilia MIA Hand** as the prosthetic hand platform.
 * **MuJoCo** for simulation.
 * **TensorFlow / Keras** for custom CNN development and training.
-* **YOLO** for object detection and segmentation experiments.
+* **YOLO** for object detection experiments.
 * **Python** for the perception and processing pipeline.
 
 The physical camera is used to provide real RGB-D data, while the prosthetic hand and manipulation environment are simulated.
