@@ -1,0 +1,2 @@
+Model_Variant,Accuracy,Precision,Recall,F1,Size (MB),Avg Latency (ms),RAM Usage (MB)
+complex_cnn_FP16,1.0,1.0,1.0,1.0,0.5574493408203125,76.20684416668458,7.4609375

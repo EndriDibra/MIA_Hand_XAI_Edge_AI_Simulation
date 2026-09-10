@@ -1,0 +1,8 @@
+path: C:/Users/User/Documents/AI_Robotics Projects/AAU/Summer/Dataset_YOLO
+train: train/images
+val: val/images
+
+names:
+  0: apple
+  1: bottle
+  2: cup

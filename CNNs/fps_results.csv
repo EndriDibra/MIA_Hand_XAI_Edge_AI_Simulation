@@ -1,0 +1,13 @@
+model_name,status,avg_fps,avg_latency_ms
+simple_cnn.keras,SUCCESS,8.36,119.61
+simple_cnn_fp32.tflite,SUCCESS,30.14,33.18
+simple_cnn_fp16.tflite,SUCCESS,29.95,33.39
+simple_cnn_int8.tflite,SUCCESS,27.38,36.52
+complex_cnn.keras,SUCCESS,6.57,152.24
+complex_cnn_fp32.tflite,SUCCESS,27.15,36.83
+complex_cnn_fp16.tflite,SUCCESS,26.99,37.05
+complex_cnn_int8.tflite,SUCCESS,29.97,33.37
+deeper_cnn.keras,SUCCESS,9.18,108.98
+deeper_cnn_fp32.tflite,SUCCESS,17.63,56.73
+deeper_cnn_fp16.tflite,SUCCESS,16.19,61.78
+deeper_cnn_int8.tflite,SUCCESS,23.89,41.86

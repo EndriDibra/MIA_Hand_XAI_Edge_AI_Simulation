@@ -1,0 +1,9 @@
+model_name,status,avg_fps,avg_latency_ms
+mobilenet_v2.keras,SUCCESS,7.37,135.76
+mobilenet_v2_fp32.tflite,SUCCESS,30.07,33.26
+mobilenet_v2_fp16.tflite,SUCCESS,29.94,33.40
+mobilenet_v2_int8.tflite,SUCCESS,30.02,33.31
+mobilenet_v3.keras,SUCCESS,8.90,112.32
+mobilenet_v3_fp32.tflite,SUCCESS,30.08,33.24
+mobilenet_v3_fp16.tflite,SUCCESS,30.00,33.33
+mobilenet_v3_int8.tflite,SUCCESS,29.84,33.51
