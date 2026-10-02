@@ -1,0 +1,9 @@
+path: C:/Users/User/Documents/AI_Robotics Projects/AAU/Summer/Real_Dataset_YOLO_150 
+train: train/images  #  Points to Real_Dataset_YOLO_150/train/images
+val: val/images      #  Points to Real_Dataset_YOLO_150/val/images
+
+names:
+  0: apple
+  1: bottle
+  2: cup
+

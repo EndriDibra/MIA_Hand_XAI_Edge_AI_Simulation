@@ -1,0 +1,46 @@
+architecture,precision,image_filename,ground_truth_class,keras_predicted_class,tflite_predicted_class,prediction_status,ssim,topk_iou,spearman_consistency
+simple_cnn,fp32,Apple.png,apple,apple,apple,Both Correct,0.44075276957678283,0.40540540538714387,0.6570466830408509
+simple_cnn,fp16,Apple.png,apple,apple,apple,Both Correct,0.09348835165260688,0.0032154340834978958,-0.014489792090502485
+simple_cnn,int8,Apple.png,apple,apple,bottle,FP32 Correct / Quantized Failed,0.0077812041023987075,0.1989795918341967,0.0
+simple_cnn,fp32,bottle.png,bottle,cups,cups,Both Incorrect,0.22507146236771516,0.09090909090591227,0.06236075891036519
+simple_cnn,fp16,bottle.png,bottle,cups,cups,Both Incorrect,0.21421431423579093,0.06484641638003937,-0.11287103987158138
+simple_cnn,int8,bottle.png,bottle,cups,bottle,FP32 Failed / Quantized Correct,4.9986344412603606e-05,0.1989795918341967,0.0
+simple_cnn,fp32,cup.jpg,cups,cups,cups,Both Correct,0.19823663865412347,0.1063829787196318,0.008903486427895558
+simple_cnn,fp16,cup.jpg,cups,cups,cups,Both Correct,0.12022395215008372,0.07094594594354912,-0.16406160709965206
+simple_cnn,int8,cup.jpg,cups,cups,bottle,FP32 Correct / Quantized Failed,0.0002468185330468627,0.1989795918341967,0.0
+deeper_cnn,fp32,Apple.png,apple,apple,apple,Both Correct,0.11407390514039434,0.22891566262302224,0.2645976849579162
+deeper_cnn,fp16,Apple.png,apple,apple,apple,Both Correct,0.1403755021878169,0.2142857142602041,0.15126837177445718
+deeper_cnn,int8,Apple.png,apple,apple,bottle,FP32 Correct / Quantized Failed,0.0635133932561439,0.1999999999764706,0.1974874197560297
+deeper_cnn,fp32,bottle.png,bottle,cups,cups,Both Incorrect,-0.006808758802890225,0.199218749992218,-0.022733446943572252
+deeper_cnn,fp16,bottle.png,bottle,cups,cups,Both Incorrect,0.0077907514191520024,0.199218749992218,-0.04849736726153895
+deeper_cnn,int8,bottle.png,bottle,cups,bottle,FP32 Failed / Quantized Correct,-0.003767861469223135,0.199218749992218,-0.022199169591030896
+deeper_cnn,fp32,cup.jpg,cups,cups,cups,Both Correct,1.9765517263294895e-05,0.06249999999348959,0.0003649242779164188
+deeper_cnn,fp16,cup.jpg,cups,cups,cups,Both Correct,0.0215155706528094,0.24390243899464606,0.09612875023062808
+deeper_cnn,int8,cup.jpg,cups,cups,bottle,FP32 Correct / Quantized Failed,0.04394837268653646,0.1999999999764706,0.276961526159313
+complex_cnn,fp32,Apple.png,apple,apple,apple,Both Correct,0.08622612165816775,0.1623931623885358,0.29046780433488506
+complex_cnn,fp16,Apple.png,apple,apple,apple,Both Correct,0.24262540359532014,0.13019390581356804,0.4499538320990786
+complex_cnn,int8,Apple.png,apple,apple,bottle,FP32 Correct / Quantized Failed,0.03826773932695359,0.1396648044653725,0.2482483994637099
+complex_cnn,fp32,bottle.png,bottle,cups,bottle,FP32 Failed / Quantized Correct,0.10981770384425825,0.15909090908638945,0.3610826492102162
+complex_cnn,fp16,bottle.png,bottle,cups,bottle,FP32 Failed / Quantized Correct,0.05428377493541583,0.18604651162249863,0.3394721790600608
+complex_cnn,int8,bottle.png,bottle,cups,bottle,FP32 Failed / Quantized Correct,0.3893652958671436,0.39726027395899793,0.7238887108817121
+complex_cnn,fp32,cup.jpg,cups,cups,cups,Both Correct,-0.005108890607236669,0.05974025973870804,-0.3496159508937552
+complex_cnn,fp16,cup.jpg,cups,cups,cups,Both Correct,-0.028553781036447626,0.08510638297645993,-0.17777125796443247
+complex_cnn,int8,cup.jpg,cups,cups,bottle,FP32 Correct / Quantized Failed,0.020541847894567436,0.09090909090666019,-0.25145522674674303
+mobilenet_v2,fp32,Apple.png,apple,apple,apple,Both Correct,0.4999047517776489,0.4999999995833333,0.6840930125961887
+mobilenet_v2,fp16,Apple.png,apple,apple,apple,Both Correct,0.4222419857978821,0.3846153843195266,0.5028660390634236
+mobilenet_v2,int8,Apple.png,apple,apple,apple,Both Correct,0.4705386161804199,0.3846153843195266,0.6330691927237828
+mobilenet_v2,fp32,bottle.png,bottle,cups,bottle,FP32 Failed / Quantized Correct,-0.3041202425956726,0.0,-0.24815707185374666
+mobilenet_v2,fp16,bottle.png,bottle,cups,bottle,FP32 Failed / Quantized Correct,-0.2717582881450653,0.0,-0.1072599266066929
+mobilenet_v2,int8,bottle.png,bottle,cups,bottle,FP32 Failed / Quantized Correct,-0.3137041926383972,0.0,-0.18737768610919878
+mobilenet_v2,fp32,cup.jpg,cups,cups,cups,Both Correct,0.7038965225219727,0.6363636357851239,0.6879659800654735
+mobilenet_v2,fp16,cup.jpg,cups,cups,cups,Both Correct,0.6642685532569885,0.28571428551020406,0.5997454791104895
+mobilenet_v2,int8,cup.jpg,cups,cups,cups,Both Correct,0.6697829365730286,0.28571428551020406,0.6094142556522195
+mobilenet_v3,fp32,Apple.png,apple,apple,apple,Both Correct,0.7354676723480225,0.4999999995833333,0.7485883642595479
+mobilenet_v3,fp16,Apple.png,apple,apple,apple,Both Correct,0.5595069527626038,0.3846153843195266,0.5999186358627044
+mobilenet_v3,int8,Apple.png,apple,apple,apple,Both Correct,0.20354054868221283,0.05882352937716263,0.19983082049224063
+mobilenet_v3,fp32,bottle.png,bottle,bottle,bottle,Both Correct,0.2530704438686371,0.28571428551020406,0.5025726742961928
+mobilenet_v3,fp16,bottle.png,bottle,bottle,bottle,Both Correct,0.4317871332168579,0.3846153843195266,0.5874738236258901
+mobilenet_v3,int8,bottle.png,bottle,bottle,bottle,Both Correct,-0.18286308646202087,0.0,-0.31167499875738897
+mobilenet_v3,fp32,cup.jpg,cups,cups,cups,Both Correct,-0.3119771480560303,0.0,-0.432298865110727
+mobilenet_v3,fp16,cup.jpg,cups,cups,cups,Both Correct,-0.1415809541940689,0.0,-0.12016220467298318
+mobilenet_v3,int8,cup.jpg,cups,cups,cups,Both Correct,0.49560433626174927,0.3846153843195266,0.49596000685107927
